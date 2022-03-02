@@ -1,46 +1,63 @@
-import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import React from "react";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
-    return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-            
-            <Link 
-                className="navbar-brand" 
-                to="/"
-            >
-                Asociaciones
-            </Link>
 
-            <div className="navbar-collapse">
-                <div className="navbar-nav">
+  const navigate = useNavigate();
 
-                    <NavLink 
-                        className="nav-item nav-link" 
-                        to="/marvel"
-                    >
-                        Marvel
-                    </NavLink>
+  const handleLogout = () => {
+    
+    navigate('/login', {
+      replace: true
+    })
+  };
 
-                    <NavLink 
-                        className="nav-item nav-link" 
-                        to="/dc"
-                    >
-                        DC
-                    </NavLink>
-                </div>
-            </div>
-
-            <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                <ul className="navbar-nav ml-auto">
-                    <NavLink 
-                        className="nav-item nav-link" 
-                        to="/login"
-                    >
-                        Logout
-                    </NavLink>
-                </ul>
-            </div>
-        </nav>
-    )
-}
+  return (
+    <nav className="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-900 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
+      <div className="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+        <div className="collapse navbar-collapse flex flex-row items-center w-full">
+          <Link className="text-xl text-white pr-2 font-semibold" to="/">
+            Asociaciones
+          </Link>
+          <ul className="navbar-nav flex flex-row pl-0 list-style-none mr-auto w-full">
+            <li className="nav-item p-2">
+              <NavLink
+                className={({ isActive }) =>
+                  "nav-item " +
+                  (isActive
+                    ? "active"
+                    : "opacity-60 hover:opacity-90 focus:opacity-80 p-0")
+                }
+                to="/marvel"
+              >
+                Marvel
+              </NavLink>
+            </li>
+            <li className="nav-item p-2">
+              <NavLink
+                className={({ isActive }) =>
+                  "nav-item " +
+                  (isActive
+                    ? "active"
+                    : "opacity-60 hover:opacity-90 focus:opacity-80 p-0")
+                }
+                to="/dc"
+              >
+                Dc
+              </NavLink>
+            </li>
+            <li className="nav-item p-2 absolute right-0 mx-5">
+              <span className="text-sky-600 mx-3">Jona</span>
+              <button
+                className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
+                onClick={handleLogout}
+              >
+                Logout
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
+};

@@ -1,8 +1,12 @@
+import { HeroList } from "../hero/HeroList"
 
 export const DScreen = () => {
   return (
-    <div>
-      <h1>DScreen</h1>
+    <div className="my-5">
+      <h1 className="text-3xl mb-5">DScreen</h1>
+      <hr />
+
+      <HeroList publisher={ 'DC Comics' } />
     </div>
   )
 }
