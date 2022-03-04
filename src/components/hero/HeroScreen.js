@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import { Navigate, useNavigate, useParams } from "react-router-dom"
 import { getHeroById } from "../../selectors/getHeroById";
 
@@ -6,7 +7,7 @@ export const HeroScreen = () => {
   const navigate = useNavigate();
   const { heroId} = useParams();
   
-  const hero = getHeroById( heroId );
+  const hero = useMemo( () => getHeroById( heroId ), [ heroId ]);
 
   const {
     id,
@@ -34,11 +35,11 @@ export const HeroScreen = () => {
         <img 
           alt={ superhero }
           src={ imagePath  } 
-          className="rounded-lg border-2 border-double border-gray-300"
+          className="rounded-lg border-2 border-double border-gray-300 animate__animated animate__fadeInLeft"
         />
       </div>
 
-      <div className="mx-5 w-8/12 w-full">
+      <div className="mx-5 w-8/12 w-full animate__animated animate__fadeIn">
         <h3 className="text-3xl my-2">{ superhero }</h3>
         <ul className="bg-white rounded-lg border border-gray-200 text-gray-900 w-full">
           <li className="pl-5 py-2 border-b border-gray-200 w-full rounded-t-lg"><b>Alter ego:</b> { alter_ego } </li>

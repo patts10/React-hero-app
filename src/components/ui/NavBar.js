@@ -46,6 +46,19 @@ export const Navbar = () => {
                 Dc
               </NavLink>
             </li>
+            <li className="nav-item p-2">
+              <NavLink
+                className={({ isActive }) =>
+                  "nav-item " +
+                  (isActive
+                    ? "active"
+                    : "opacity-60 hover:opacity-90 focus:opacity-80 p-0")
+                }
+                to="/search"
+              >
+                Search
+              </NavLink>
+            </li>
             <li className="nav-item p-2 absolute right-0 mx-5">
               <span className="text-sky-600 mx-3">Jona</span>
               <button

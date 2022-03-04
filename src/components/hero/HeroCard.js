@@ -11,7 +11,7 @@ export const HeroCard = ({
   const imagePath = `assets/${id}.jpg`;
 
   return (
-    <div className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5">
+    <div className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn">
       <div className="flex flex-row">
         <div className="w-4/12">
           <img src={imagePath} alt={superhero} />
