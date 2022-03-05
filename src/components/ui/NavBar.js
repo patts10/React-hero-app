@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../auth/authContext";
+import { types } from "../../types/types";
 
 export const Navbar = () => {
 
   const navigate = useNavigate();
+  const { user, dispatch } = useContext(AuthContext);
 
   const handleLogout = () => {
+
+    dispatch({ type: types.logout });
     
     navigate('/login', {
       replace: true
@@ -60,10 +65,10 @@ export const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item p-2 absolute right-0 mx-5">
-              <span className="text-sky-600 mx-3">Jona</span>
+              <span className="text-sky-600 mx-3">{ user.name }</span>
               <button
                 className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
-                onClick={handleLogout}
+                onClick={ handleLogout }
               >
                 Logout
               </button>
