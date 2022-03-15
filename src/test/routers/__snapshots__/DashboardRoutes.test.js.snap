@@ -1,0 +1,1175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on <DashboardRoutes /> should show Dc's component correctly 1`] = `
+Array [
+  <nav
+    className="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-900 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light"
+  >
+    <div
+      className="container-fluid w-full flex flex-wrap items-center justify-between px-6"
+    >
+      <div
+        className="collapse navbar-collapse flex flex-row items-center w-full"
+      >
+        <a
+          className="text-xl text-white pr-2 font-semibold"
+          href="/"
+          onClick={[Function]}
+        >
+          Asociaciones
+        </a>
+        <ul
+          className="navbar-nav flex flex-row pl-0 list-style-none mr-auto w-full"
+        >
+          <li
+            className="nav-item p-2"
+          >
+            <a
+              className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
+              href="/marvel"
+              onClick={[Function]}
+            >
+              Marvel
+            </a>
+          </li>
+          <li
+            className="nav-item p-2"
+          >
+            <a
+              aria-current="page"
+              className="nav-item active"
+              href="/dc"
+              onClick={[Function]}
+            >
+              Dc
+            </a>
+          </li>
+          <li
+            className="nav-item p-2"
+          >
+            <a
+              className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
+              href="/search"
+              onClick={[Function]}
+            >
+              Search
+            </a>
+          </li>
+          <li
+            className="nav-item p-2 absolute right-0 mx-5"
+          >
+            <span
+              className="text-sky-600 mx-3 text-info"
+            >
+              Patts
+            </span>
+            <button
+              className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
+              onClick={[Function]}
+            >
+              Logout
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>,
+  <div
+    className="mx-20"
+  >
+    <div
+      className="my-5"
+    >
+      <h1
+        className="text-3xl mb-5"
+      >
+        DCScreen
+      </h1>
+      <hr />
+      <div
+        className="flex justify-around flex-wrap my-3 animate__animated animate__fadeIn"
+      >
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Batman"
+                src="assets/dc-batman.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Batman
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Bruce Wayne
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    Detective Comics #27
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/dc-batman"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Superman"
+                src="assets/dc-superman.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Superman
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Kal-El
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    Action Comics #1
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/dc-superman"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Flash"
+                src="assets/dc-flash.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Flash
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Jay Garrick
+                </p>
+                <p
+                  className="text-gray-600 text-sm text-justify"
+                >
+                  Jay Garrick, Barry Allen, Wally West, Bart Allen
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    Flash Comics #1
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/dc-flash"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Green Lantern"
+                src="assets/dc-green.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Green Lantern
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Alan Scott
+                </p>
+                <p
+                  className="text-gray-600 text-sm text-justify"
+                >
+                  Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    All-American Comics #16
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/dc-green"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Green Arrow"
+                src="assets/dc-arrow.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Green Arrow
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Oliver Queen
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    More Fun Comics #73
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/dc-arrow"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Wonder Woman"
+                src="assets/dc-wonder.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Wonder Woman
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Princess Diana
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    All Star Comics #8
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/dc-wonder"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Martian Manhunter"
+                src="assets/dc-martian.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Martian Manhunter
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  J'onn J'onzz
+                </p>
+                <p
+                  className="text-gray-600 text-sm text-justify"
+                >
+                  Martian Manhunter
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    Detective Comics #225
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/dc-martian"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Robin/Nightwing"
+                src="assets/dc-robin.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Robin/Nightwing
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Dick Grayson
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    Detective Comics #38
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/dc-robin"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Blue Beetle"
+                src="assets/dc-blue.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Blue Beetle
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Dan Garret
+                </p>
+                <p
+                  className="text-gray-600 text-sm text-justify"
+                >
+                  Dan Garret, Ted Kord, Jaime Reyes
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    Mystery Men Comics #1
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/dc-blue"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Black Canary"
+                src="assets/dc-black.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Black Canary
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Dinah Drake
+                </p>
+                <p
+                  className="text-gray-600 text-sm text-justify"
+                >
+                  Dinah Drake, Dinah Lance
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    Flash Comics #86
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/dc-black"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Tests on <DashboardRoutes /> should show Marvel's component correctly 1`] = `
+Array [
+  <nav
+    className="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-900 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light"
+  >
+    <div
+      className="container-fluid w-full flex flex-wrap items-center justify-between px-6"
+    >
+      <div
+        className="collapse navbar-collapse flex flex-row items-center w-full"
+      >
+        <a
+          className="text-xl text-white pr-2 font-semibold"
+          href="/"
+          onClick={[Function]}
+        >
+          Asociaciones
+        </a>
+        <ul
+          className="navbar-nav flex flex-row pl-0 list-style-none mr-auto w-full"
+        >
+          <li
+            className="nav-item p-2"
+          >
+            <a
+              className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
+              href="/marvel"
+              onClick={[Function]}
+            >
+              Marvel
+            </a>
+          </li>
+          <li
+            className="nav-item p-2"
+          >
+            <a
+              className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
+              href="/dc"
+              onClick={[Function]}
+            >
+              Dc
+            </a>
+          </li>
+          <li
+            className="nav-item p-2"
+          >
+            <a
+              className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
+              href="/search"
+              onClick={[Function]}
+            >
+              Search
+            </a>
+          </li>
+          <li
+            className="nav-item p-2 absolute right-0 mx-5"
+          >
+            <span
+              className="text-sky-600 mx-3 text-info"
+            >
+              Patts
+            </span>
+            <button
+              className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
+              onClick={[Function]}
+            >
+              Logout
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>,
+  <div
+    className="mx-20"
+  >
+    <div
+      className="my-5"
+    >
+      <h1
+        className="text-3xl"
+      >
+        MarvelScreen
+      </h1>
+      <hr />
+      <div
+        className="flex justify-around flex-wrap my-3 animate__animated animate__fadeIn"
+      >
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Spider Man"
+                src="assets/marvel-spider.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Spider Man
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Peter Parker
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    Amazing Fantasy #15
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/marvel-spider"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Captain America"
+                src="assets/marvel-captain.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Captain America
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Steve Rogers
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    Captain America Comics #1
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/marvel-captain"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Iron Man"
+                src="assets/marvel-iron.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Iron Man
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Tony Stark
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    Tales of Suspense #39
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/marvel-iron"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Thor"
+                src="assets/marvel-thor.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Thor
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Thor Odinson
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    Journey into Myster #83
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/marvel-thor"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Hulk"
+                src="assets/marvel-hulk.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Hulk
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Bruce Banner
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    The Incredible Hulk #1
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/marvel-hulk"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Wolverine"
+                src="assets/marvel-wolverine.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Wolverine
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  James Howlett
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    The Incredible Hulk #180
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/marvel-wolverine"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Daredevil"
+                src="assets/marvel-daredevil.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Daredevil
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Matthew Michael Murdock
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    Daredevil #1
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/marvel-daredevil"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Hawkeye"
+                src="assets/marvel-hawkeye.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Hawkeye
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Clinton Francis Barton
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    Tales of Suspense #57
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/marvel-hawkeye"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Cyclops"
+                src="assets/marvel-cyclops.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Cyclops
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Scott Summers
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    X-Men #1
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/marvel-cyclops"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-lg border border-gray-300 mb-4 text-center m-3 lg:w-3/12 md:w-2/5 animate__animated animate__fadeIn"
+        >
+          <div
+            className="flex flex-row"
+          >
+            <div
+              className="w-4/12"
+            >
+              <img
+                alt="Silver Surfer"
+                src="assets/marvel-silver.jpg"
+              />
+            </div>
+            <div
+              className="flex items-center w-8/12"
+            >
+              <div
+                className="py-4 w-full text-left px-3"
+              >
+                <h5
+                  className="md:text-2xl sm:text-2xl"
+                >
+                  Silver Surfer
+                </h5>
+                <p
+                  className="md:text-base sm:text-sm mt-3"
+                >
+                  Norrin Radd
+                </p>
+                <p>
+                  <small
+                    className="text-gray-600"
+                  >
+                    The Fantastic Four #48
+                  </small>
+                </p>
+                <a
+                  className="hover:underline hover:text-blue-900"
+                  href="/hero/marvel-silver"
+                  onClick={[Function]}
+                >
+                  more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

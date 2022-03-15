@@ -65,7 +65,7 @@ export const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item p-2 absolute right-0 mx-5">
-              <span className="text-sky-600 mx-3">{ user.name }</span>
+              <span className="text-sky-600 mx-3 text-info">{ user.name }</span>
               <button
                 className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
                 onClick={ handleLogout }
