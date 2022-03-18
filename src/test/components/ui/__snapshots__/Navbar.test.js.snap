@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on <Navbar /> should show correctly 1`] = `
+<nav
+  className="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-900 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light"
+>
+  <div
+    className="container-fluid w-full flex flex-wrap items-center justify-between px-6"
+  >
+    <div
+      className="collapse navbar-collapse flex flex-row items-center w-full"
+    >
+      <a
+        className="text-xl text-white pr-2 font-semibold"
+        href="/"
+        onClick={[Function]}
+      >
+        Asociaciones
+      </a>
+      <ul
+        className="navbar-nav flex flex-row pl-0 list-style-none mr-auto w-full"
+      >
+        <li
+          className="nav-item p-2"
+        >
+          <a
+            className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
+            href="/marvel"
+            onClick={[Function]}
+          >
+            Marvel
+          </a>
+        </li>
+        <li
+          className="nav-item p-2"
+        >
+          <a
+            className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
+            href="/dc"
+            onClick={[Function]}
+          >
+            Dc
+          </a>
+        </li>
+        <li
+          className="nav-item p-2"
+        >
+          <a
+            className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
+            href="/search"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </li>
+        <li
+          className="nav-item p-2 absolute right-0 mx-5"
+        >
+          <span
+            className="text-sky-600 mx-3 text-info"
+          >
+            Patts
+          </span>
+          <button
+            className="nav-item opacity-60 hover:opacity-90 focus:opacity-80 p-0"
+            onClick={[Function]}
+          >
+            Logout
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+`;
