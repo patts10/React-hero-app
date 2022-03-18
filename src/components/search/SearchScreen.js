@@ -63,7 +63,7 @@ export const SearchScreen = () => {
             (q==='')
               ? <div className="bg-blue-100 rounded-lg m-3 py-3 px-6 mb-4 text-base text-blue-700 mb-3" role="alert">Search a hero</div>
               : (heroesFiltered.length == 0)
-                && <div className="bg-red-100 rounded-lg m-3 py-3 px-6 mb-4 text-base text-red-700 mb-3" role="alert">There is no results: { q }</div>
+                && <div className="alert-danger bg-red-100 rounded-lg m-3 py-3 px-6 mb-4 text-base text-red-700 mb-3" role="alert">There is no results: { q }</div>
           }
 
           {
