@@ -8,6 +8,10 @@ export const HeroScreen = () => {
   const { heroId} = useParams();
   
   const hero = useMemo( () => getHeroById( heroId ), [ heroId ]);
+  
+  if ( !hero ) {
+    return <Navigate to={'/'} />
+  }
 
   const {
     id,
@@ -18,9 +22,6 @@ export const HeroScreen = () => {
     characters
   } = hero;
 
-  if ( !hero ) {
-    return <Navigate to={'/'} />
-  }
 
 
   const handleReturn = () => {
