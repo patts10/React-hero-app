@@ -2,6 +2,7 @@ import { MemoryRouter, Routes, Route } from "react-router-dom";
 import { mount } from "enzyme";
 import { AuthContext } from "../../../auth/authContext";
 import { LoginScreen } from "../../../components/login/LoginScreen";
+import { types } from "../../../types/types";
 
 const mockNavigate = jest.fn();
 
@@ -37,7 +38,7 @@ describe("Tests on <LoginScreen />", () => {
     expect(wrapper).toMatchSnapshot();
     expect(contextValue.dispatch).toHaveBeenCalledWith({
       payload: { name: "Patts" },
-      type: "[auth] Login",
+      type: types.login,
     });
     expect(mockNavigate).toHaveBeenCalledWith("/marvel", { replace: true });
 
